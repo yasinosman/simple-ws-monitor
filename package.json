@@ -1,0 +1,29 @@
+{
+  "name": "simple-monitor",
+  "version": "1.0.0",
+  "description": "A simple monitoring app which uses WebSocket to communicate with clients",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasinosman/simple-monitor.git"
+  },
+  "keywords": [
+    "Node",
+    "NodeJS",
+    "Monitoring",
+    "CPU",
+    "Usage",
+    "RAM",
+    "Usage",
+    "npm"
+  ],
+  "author": "Yasin Osman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yasinosman/simple-monitor/issues"
+  },
+  "homepage": "https://github.com/yasinosman/simple-monitor#readme"
+}
