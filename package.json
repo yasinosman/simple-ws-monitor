@@ -25,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/yasinosman/simple-monitor/issues"
   },
-  "homepage": "https://github.com/yasinosman/simple-monitor#readme"
+  "homepage": "https://github.com/yasinosman/simple-monitor#readme",
+  "dependencies": {
+    "os-utils": "0.0.14",
+    "ws": "^7.4.3"
+  }
 }
