@@ -7,3 +7,4 @@
 -   Changelog, license and readme
 -   `gitignore` for ignoring `node_modules`
 -   Monitor.js and utils.js files
+-   Ability to edit interval
