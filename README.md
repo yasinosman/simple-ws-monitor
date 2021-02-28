@@ -39,12 +39,12 @@ monitoringService.onmessage = (msg) => console.log(JSON.parse(msg));
     Header: "Monitoring",
     Payload: {
         cpu: {
-            count: 4,
-            usage: 27,
+            count: "4",
+            usage: "1.25",
         },
         ram: {
-            total: 16,
-            free: 14.3,
+            total: "16.4",
+            usage: "41.30",
         }
     }
 }
@@ -75,10 +75,23 @@ simple-monitor is now ready and waiting for connections.
 
 ## Development
 
+#### Clone repository:
+
 ```bash
 git clone https://github.com/yasinosman/simple-monitor
 cd simple-monitor
+```
+
+#### Install packages:
+
+```
 npm install
+```
+
+#### Start development server
+
+```
+npm run dev
 ```
 
 ## Contributing
