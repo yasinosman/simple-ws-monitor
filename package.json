@@ -1,6 +1,6 @@
 {
-    "name": "simple-monitor",
-    "version": "1.0.0",
+    "name": "simple-ws-monitor",
+    "version": "1.1.0",
     "description": "A simple monitoring app which uses WebSocket to communicate with clients",
     "main": "index.js",
     "scripts": {

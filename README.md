@@ -1,8 +1,8 @@
-# simple-monitor
+# simple-ws-monitor
 
 ## Description
 
-[simple-monitor](https://github.com/yasinosman/simple-monitor) is a monitoring app runs on `Node`.
+[simple-ws-monitor](https://github.com/yasinosman/simple-ws-monitor) is a monitoring app runs on `Node`.
 
 It is aimed to periodically send various information
 about the system to the users such as `CPU` and `RAM` usage.
@@ -12,7 +12,7 @@ about the system to the users such as `CPU` and `RAM` usage.
 #### Server:
 
 ```javascript
-const Monitor = require("simple-monitor");
+const Monitor = require("simple-ws-monitor");
 
 const PORT = 8000;
 
@@ -52,14 +52,14 @@ monitoringService.onmessage = (msg) => console.log(JSON.parse(msg));
 
 ## Installation
 
-`npm i simple-monitor`
+`npm i simple-ws-monitor`
 
 ## Usage
 
 #### Import package on server side
 
 ```javascript
-const Monitor = require("simple-monitor");
+const Monitor = require("simple-ws-monitor");
 ```
 
 #### Start service
@@ -78,8 +78,8 @@ simple-monitor is now ready and waiting for connections.
 #### Clone repository:
 
 ```bash
-git clone https://github.com/yasinosman/simple-monitor
-cd simple-monitor
+git clone https://github.com/yasinosman/simple-ws-monitor
+cd simple-ws-monitor
 ```
 
 #### Install packages:
