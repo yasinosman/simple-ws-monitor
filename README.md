@@ -16,7 +16,8 @@ const Monitor = require("simple-ws-monitor");
 
 const PORT = 8000;
 
-const monitoringService = new Monitor(PORT, {
+const monitoringService = new Monitor({
+    port: 8000,
     cpu: true,
     ram: true,
 });
@@ -65,7 +66,8 @@ const Monitor = require("simple-ws-monitor");
 #### Start service
 
 ```javascript
-const monitoringService = new Monitor(8000, {
+const monitoringService = new Monitor({
+    port: 8000,
     cpu: true,
     ram: true,
 });

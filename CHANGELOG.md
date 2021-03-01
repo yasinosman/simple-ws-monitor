@@ -1,5 +1,11 @@
 # Changelog
 
+## 01.03.2020
+
+### Changed
+
+-   README file for fixing option usage
+
 ## 28.02.2020
 
 ### Added
