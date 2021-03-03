@@ -1,5 +1,11 @@
 # Changelog
 
+## 03.03.2020
+
+### Added
+
+-   `cpuCores` option for viewing information about each core.
+
 ## 01.03.2020
 
 ### Changed
